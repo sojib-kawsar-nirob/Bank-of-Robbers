@@ -1,0 +1,41 @@
+body{
+    padding: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h6{
+    float: right;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    padding-right: 80px;
+    color: green;
+}
+.submit-area{
+    margin: 80PX 80px 0 100px;
+    padding: 40PX ;
+    box-shadow: 5px 5px 3px gray;
+    border-radius: 10px;
+}
+#transaction-area{
+    display: none;
+}
+.deposit{
+    background-color: rgb(142, 203, 223);
+}
+.withdraw{
+    background-color: rgb(185, 142, 122);
+}
+.balance{
+    background-color: #dd7777;
+}
+.status{
+    margin: 0 20px;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px; 
+}
+.status h5{
+    font-size: 30px;
+    font-weight: bold;
+}
